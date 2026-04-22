@@ -66,9 +66,79 @@
 //  00
 // Print out "*****" using only one "*". This means you cannot simply type print("*****").
 
-const stars_i = () => {
-  const str = "*";
-  console.log(str.repeat(5));
-};
+// const stars_i = () => {
+//   const str = "*";
+//   console.log(str.repeat(5));
+// };
 
-stars_i();
+// stars_i();
+
+//==========================================
+// 181. Draw Stars IV
+//  01
+// Print out m stars per row for n rows.
+
+// Example 1:
+// Input: n = 3, m = 4
+// Print Output:
+// ****
+// ****
+// ****
+// Example 2:
+// Input: n = 2, m = 5
+// Print Output:
+// *****
+// *****
+// Constraints
+// 0 ≤ n ≤ 102
+// 0 ≤ m ≤ 102
+
+// const stars_iv = (n, m) => {
+//   const str = "*";
+//   let sum = "";
+//   const row = str.repeat(m) + "\n";
+
+//   console.log(row.repeat(n).trim());
+//   //   for(let i=0; i < n; i++)
+//   //   {
+//   //       sum = sum + row + "\n";
+//   //   }
+//   //   console.log(sum.repeat(n))
+// };
+
+// stars_iv(3, 4);
+
+//============================================
+
+// 182. Draw Stars V
+//  10
+// Print out the following pattern of stars for n rows.
+
+// *
+// **
+// ***
+// ****
+// ...
+// Example 1:
+// Input: n = 3
+// Print Output:
+// *
+// **
+// ***
+// Example 2:
+// Input: n = 2
+// Print Output:
+// *
+// **
+
+// const stars_v = (n) => {
+//   let sum = "";
+//   for (let i = 0; i < n; i++) {
+//     const str = "*";
+//     sum = sum + str;
+//     console.log(sum);
+//   }
+// };
+// stars_v(5);
+
+//============================================
